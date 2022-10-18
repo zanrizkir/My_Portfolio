@@ -437,7 +437,7 @@ a:hover {
 }
 
 #projects{
-    background-color: #e2edff;
+    background-color: #eedada;
 }
 #contact{
 
@@ -448,9 +448,6 @@ section{
     padding-top: 6rem;
 }
 
-footer{
-    background-color: #0d4efd;
-}
 
 
 .button {
@@ -467,6 +464,7 @@ footer{
     cursor: pointer;
     color: black;
     border: 0 solid transparent;
+    z-index: 10000;
 }
 
 .button:hover {
