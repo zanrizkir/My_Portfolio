@@ -235,6 +235,7 @@ a:hover {
     left: 0;
     bottom: 0;
     background: rgba(78, 78, 78, 0.9);
+    /* background: transparent; */
     transition: 0.3s;
     z-index: 999;
 }
@@ -248,9 +249,10 @@ a:hover {
 .navbar-mobile ul {
     display: block;
     position: absolute;
+    /* position: relative; */
     top: 55px;
     right: 15px;
-    bottom: 15px;
+    /* bottom: 15px; */
     left: 15px;
     padding: 10px 0;
     background-color: #fff;
