@@ -254,7 +254,7 @@ a:hover, a:active {
     color: #000;
     visibility: hidden;
     cursor: pointer;
-    animation: action 1s infinite alternate;
+    /* animation: action 1s infinite alternate; */
     /* box-shadow: 0 3px 9px rgba(0, 0, 0, 0.4); */
     z-index: 99;
 }

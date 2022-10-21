@@ -40,6 +40,16 @@ a:hover {
     text-decoration: none;
     transition: all 0.5s ease-in-out;
 }
+
+/* #preloader{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: 150;
+    background: url("/assets/img/loading.gif") center center no-repeat #fff;
+    background-size: 50%;
+} */
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
