@@ -444,8 +444,30 @@ a:hover {
     background-color: #eedada;
 }
 #contact{
-
     background-color: #fff;
+    height: 850px;
+}
+.card{
+    box-shadow: 0px 0px 5px;
+}
+.tulisan {
+    text-align: justify;
+}
+.item{
+    font-size: 2rem;
+}
+.item i{
+    margin-bottom: 100px;
+}
+.item strong{
+    font-size: 15px;
+    
+}
+ .sosmed{
+    font-size: x-large;
+}
+.tes{
+    margin-bottom: 3rem;
 }
 
 section{
