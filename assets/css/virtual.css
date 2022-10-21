@@ -500,6 +500,14 @@ a:hover, a:active {
 /* 
     5. Preloader
 */
+#preloader {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: 150;
+    background: url("/assets/img/loader1.gif") center center no-repeat #fff;
+    /* background-size: 50%; */
+}
 
 /* 
     6. Pagination

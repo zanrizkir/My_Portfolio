@@ -189,10 +189,12 @@
    */
   
 
-  /**
-   * Preloader
-   */
-  
+  /*** Preloader*/
+  let loader = document.getElementById("preloader");
+  window.addEventListener("load", () => {
+    loader.style.display = "none";
+  })
+
 
   /**
    * Initiate Pure Counter 
@@ -204,10 +206,6 @@
 //   $('#preloader').fadeOut("slow");
 // })
 
-var loader = $document.getElementById("preloader");
-window.addEventListener("load", function(){
-  loader.style.display = "none";
-})
 
 
 })()
